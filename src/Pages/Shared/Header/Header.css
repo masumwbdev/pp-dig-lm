@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Carter+One&family=Rubik+Beastly&display=swap');
 
 .nav-link{
-    margin: right;
+    margin-right: 20px;
 }
 .nav-bar{
     font-family: 'Black Ops One', cursive;

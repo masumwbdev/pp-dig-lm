@@ -28,10 +28,6 @@ const Header = () => {
                                 <a className="nav-link" href="www.google.com">Contact</a>
                             </li>
                         </ul>
-                        {/* <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class ="btn btn-outline-light" type ="submit">Search</button>
-                        </form> */}
                         <button className="btn btn-outline-primary btn-sm fw-bold">Login</button>
                     </div>
                 </div>

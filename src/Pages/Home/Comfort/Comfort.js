@@ -3,8 +3,8 @@ import './Comfort.css'
 
 const Comfort = () => {
     return (
-        <div className="comfort">
-            <div className="p-3">
+        <div className="comfort text-light mt-5">
+            <div className="p-5">
                 <h2>Comfort</h2>
                 <hr className="w-50" />
                 <p>Our Mission is to provide excellent health care services to all of our clients with dedication to meet their expectation. <br />

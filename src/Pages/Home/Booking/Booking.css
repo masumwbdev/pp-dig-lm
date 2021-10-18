@@ -1,0 +1,21 @@
+.booking img{
+    opacity: 0.2;
+}
+.booking-two img{
+    opacity: 0.2;
+}
+.booking-container .booking{
+    background-color: #1554AA;
+    cursor: pointer;
+}
+.booking-container .booking:hover{
+    background-color: #4c167e;
+    transition: 1s;
+}
+.booking-container .booking-two{
+    background-color: #168AE8;
+}
+.booking-container .booking-two:hover{
+    background-color: #440e77;
+    transition: 0.5s;
+}

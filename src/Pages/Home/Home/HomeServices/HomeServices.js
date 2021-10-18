@@ -18,6 +18,7 @@ const HomeServices = () => {
             <div className="row row-cols-1 row-cols-md-2 mx-auto g-4">
                 {
                     homeser.map(homeservice => <HomeService
+                        key = {homeservice.id}
                         homeservice={homeservice}
                     ></HomeService>)
                 }

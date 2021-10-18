@@ -2,7 +2,7 @@ import React from 'react';
 import './HomeService.css'
 
 const HomeService = (props) => {
-    const { id, name, price, viewes, comments, description, imgURL } = props.homeservice;
+    const { name, description, imgURL } = props.homeservice;
     return (
         <div>
             <div className="mt-5">

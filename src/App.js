@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from './Pages/Shared/Header/Header';
 import Home from './Pages/Home/Home/Home';
-import Doctors from './Pages/Doctors/Doctors';
 import NotFound from './Pages/NotFound/NotFound';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import HeadService from './Pages/Services/HeadService/HeadService';
+import AllDoctors from './Pages/Home/Home/Doctor/AllDoctors';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
               <HeadService></HeadService>
             </Route>
             <Route path="/doctors">
-              <Doctors></Doctors>
+              <AllDoctors></AllDoctors>
             </Route>
             <Route path="/about">
               <About></About>

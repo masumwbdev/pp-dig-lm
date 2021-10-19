@@ -1,0 +1,23 @@
+.doctor-img{
+    width: 240px;
+    height: 200px;
+}
+.card-doctor{
+    height: 100%;
+    width: 100%;
+}
+.doctor{
+    display: block;
+    background-color: rgb(217, 223, 217);
+    border-radius: 4px;
+}
+.ancor{
+    background-color: rgb(46, 25, 44);
+    padding: 10px 0;
+}
+.ancor a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+    color: white;
+}

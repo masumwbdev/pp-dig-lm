@@ -7,6 +7,8 @@ import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import HeadService from './Pages/Services/HeadService/HeadService';
 import AllDoctors from './Pages/Home/Home/Doctor/AllDoctors';
+import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Login/Register/Register';
 
 function App() {
   return (
@@ -28,6 +30,12 @@ function App() {
             </Route>
             <Route path="/about">
               <About></About>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="/register">
+              <Register></Register>
             </Route>
             <Route path="/contact">
               <Contact></Contact>

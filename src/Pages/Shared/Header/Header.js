@@ -51,7 +51,7 @@ const Header = () => {
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <button className="btn btn-outline-primary btn-sm fw-bold me-2">Login</button>
+                            <NavLink to="/login"><button className="btn btn-outline-primary btn-sm fw-bold me-2">Login</button></NavLink>
                         </form>
                     </div>
                 </div>

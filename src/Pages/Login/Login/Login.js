@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useFirebase from '../../../hooks/useFirebase';
 import './Login.css'
 
 const Login = () => {
+    const {signInUsingGoogle} = useFirebase();
+    console.log(signInUsingGoogle)
+
     // const { handleGit, signInUsingGoogle } = useAuth();
     // const location = useLocation();
     // const history = useHistory();
@@ -37,9 +41,10 @@ const Login = () => {
                 <p className="text-light">New to Popular? <Link className="create-account ms-2" to="/register">Create Account</Link> </p>
                 <div className="mb-3 mt-4 text-light">---------- Or login with ------------</div>
                 <div className="social-icon">
-                    <i className="fab fa-google google"></i>
+                    <i onClick={signInUsingGoogle} className="fab fa-google google"></i>
                     <i className="fab fa-github github"></i>
                     <i className="fab fa-facebook facebook"></i>
+                    {/* <button className={signInUsingGoogle}>Click</button> */}
                 </div>
             </div>
         </div>

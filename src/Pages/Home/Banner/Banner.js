@@ -14,22 +14,22 @@ const Banner = () => {
                     <div class="carousel-item active">
                         <img src="https://images.unsplash.com/photo-1582719471863-f4c7006280cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=793&q=80" class="d-block w-100" alt="..." />
                         <div class ="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>Your health our first priority</h5>
+                        <p>Our Mission is to provide excellent health care services to all of our clients</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://images.unsplash.com/photo-1582719299076-dd3f6f970dd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="..." />
                         <div class ="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5>Our new revoulation</h5>
+                        <p>You can be sure of high quality of scan</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="https://images.unsplash.com/photo-1631816290961-733476b453f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=878&q=80" class="d-block w-100" alt="..." />
                         <div class ="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5>Stay With</h5>
+                        <p>Popular Diagnostic Ltd.</p>
                         </div>
                     </div>
                 </div>

@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HomeService.css'
 
 const HomeService = (props) => {
-    const { name, description, imgURL } = props.homeservice;
+    const { id, name, description, imgURL } = props.homeservice;
     return (
         <div>
             <div className="mt-5">
@@ -16,7 +17,9 @@ const HomeService = (props) => {
                                 <div className="card-body">
                                     <h5 className="card-title">{name}</h5>
                                     <p className="card-text">{description.slice(0, 100)}</p>
-                                    <button className="btn btn-primary">See more</button>
+                                    <Link to={`/appoinment/${id}`}>
+                                        <button className="btn btn-primary">See more</button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

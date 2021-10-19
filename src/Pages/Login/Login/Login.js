@@ -1,30 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../../hooks/useFirebase';
+import useAuth from '../../../hooks/useAuth/useAuth';
 import './Login.css'
 
 const Login = () => {
-    const {signInUsingGoogle} = useFirebase();
-    console.log(signInUsingGoogle)
-
-    // const { handleGit, signInUsingGoogle } = useAuth();
-    // const location = useLocation();
-    // const history = useHistory();
-    // const redirect_uri = location.state?.from || '/shop';
-
-    // const handleGoogleLogin = () => {
-    //     signInUsingGoogle()
-    //     .then(result => {
-    //         history.push(redirect_uri)
-    //     })
-    // }
-    // const handleGitSignIn = () => {
-    //     handleGit()
-    //     .then(result => {
-    //         history.push(redirect_uri)
-    //     })
-    // }
-
+    const { signInUsingGoogle } = useAuth();
     return (
 
         <div className="login-form">
@@ -44,7 +24,6 @@ const Login = () => {
                     <i onClick={signInUsingGoogle} className="fab fa-google google"></i>
                     <i className="fab fa-github github"></i>
                     <i className="fab fa-facebook facebook"></i>
-                    {/* <button className={signInUsingGoogle}>Click</button> */}
                 </div>
             </div>
         </div>
@@ -52,4 +31,23 @@ const Login = () => {
 };
 
 export default Login;
+
+
+// const { handleGit, signInUsingGoogle } = useAuth();
+    // const location = useLocation();
+    // const history = useHistory();
+    // const redirect_uri = location.state?.from || '/shop';
+
+    // const handleGoogleLogin = () => {
+    //     signInUsingGoogle()
+    //     .then(result => {
+    //         history.push(redirect_uri)
+    //     })
+    // }
+    // const handleGitSignIn = () => {
+    //     handleGit()
+    //     .then(result => {
+    //         history.push(redirect_uri)
+    //     })
+    // }
 

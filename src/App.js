@@ -10,10 +10,13 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Login/Register/Register';
 import AllContact from './Pages/Contact/AllContact/AllContact';
 import Footer from './Pages/Shared/Footer/Footer';
+import Appoinment from './Pages/Appoinment/Appoinment/Appoinment';
+import AuthProvider from './context/AuthProvider';
 
 function App() {
   return (
     <div>
+      <AuthProvider>
       <Router>
         <Header></Header>
         <Switch>
@@ -41,12 +44,16 @@ function App() {
           <Route path="/contact">
             <AllContact></AllContact>
           </Route>
+          <Route path="/appoinment/:appoinmentId">
+            <Appoinment></Appoinment>
+            </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
       </Router>
+      </AuthProvider>
     </div>
   );
 }

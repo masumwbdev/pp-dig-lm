@@ -4,11 +4,11 @@ import Header from './Pages/Shared/Header/Header';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/NotFound/NotFound';
 import About from './Pages/About/About';
-import Contact from './Pages/Contact/Contact';
 import HeadService from './Pages/Services/HeadService/HeadService';
 import AllDoctors from './Pages/Home/Home/Doctor/AllDoctors';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Login/Register/Register';
+import AllContact from './Pages/Contact/AllContact/AllContact';
 
 function App() {
   return (
@@ -38,7 +38,7 @@ function App() {
               <Register></Register>
             </Route>
             <Route path="/contact">
-              <Contact></Contact>
+              <AllContact></AllContact>
             </Route>
             <Route path="*">
               <NotFound></NotFound>

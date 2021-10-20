@@ -1,31 +1,3 @@
-// import { useState } from 'react';
-// import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-// import initializeAuthentication from '../Pages/Login/Firebase/firebase.init';
-
-// initializeAuthentication();
-
-
-// const useFirebase = () => {
-//     const auth = getAuth();
-//     const googleProvider = new GoogleAuthProvider();
-//     const [user, setUser] = useState({});
-
-//     const singInUsingGoogle = () => {
-//         signInWithPopup(auth, googleProvider)
-//             .then(result => {
-//                 setUser(result.user)
-//             })
-//     }
-//     return {
-//         user,
-//         singInUsingGoogle
-//     }
-// }
-
-// export default useFirebase;
-
-
-
 
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, GithubAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged, sendEmailVerification, sendPasswordResetEmail, updateProfile, signInWithEmailAndPassword } from "firebase/auth";
 import { useState, useEffect } from 'react';
@@ -48,6 +20,7 @@ const useFirebase = () => {
         const googleProvider = new GoogleAuthProvider();
 
         return signInWithPopup(auth, googleProvider)
+        
             
     }
 
@@ -62,8 +35,6 @@ const useFirebase = () => {
           setError('Password Must contain 2 uppercase');
           return;
         }
-        // isLogin? processSignIn(email, pass): newUser(email, pass)
-        // or 
         if (isLogin) {
           processSignIn(email, password);
         }
@@ -124,10 +95,8 @@ const useFirebase = () => {
 
     const signInUsingGit = () => {
         const gitProvider = new GithubAuthProvider();
-        signInWithPopup(auth, gitProvider)
-            .then(res => {
-                setUser(res.user)
-            })
+        return signInWithPopup(auth, gitProvider)
+            
     }
 
     const signInUsingEmailPassword = e => {
@@ -146,8 +115,8 @@ const useFirebase = () => {
         setPassword(e.target.value)
     }
 
-    const handleUser = e => {
-        console.log(e.target.value)
+    const handleName = e => {
+        setName(e.target.value)
     }
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, user => {
@@ -176,11 +145,13 @@ const useFirebase = () => {
         signInUsingEmailPassword,
         handleEmail,
         handlePass,
-        handleUser,
+        handleName,
         handleReg,
         toggle,
         resPass,
-        error
+        error,
+        isLogin,
+        setError
     }
 }
 

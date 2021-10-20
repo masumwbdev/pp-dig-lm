@@ -56,7 +56,7 @@ const Header = () => {
                         </ul>
                         <form class="d-flex">
                             <span className="text-light me-3 mt-2">{user?.displayName}</span>
-                            <img className="photo-url" src={user?.photoURL} alt="" />
+                            {/* <img className="photo-url" src={user?.photoURL} alt="" /> */}
                             {user?.displayName ?
                                 <button onClick={logOut} className="btn btn-outline-primary btn-sm fw-bold me-2">Logout</button> :
                                 <NavLink to="/login"><button className="btn btn-outline-primary btn-sm fw-bold me-2">Login</button></NavLink>}

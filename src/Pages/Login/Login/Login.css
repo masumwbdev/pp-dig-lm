@@ -18,6 +18,13 @@ form input.focus{
     padding: 5px 20px;
     width: 100%;
 }
+.text{
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1.6px solid rgb(40, 169, 212);
+    padding: 5px 20px;
+    width: 100%;
+}
 .user{
     margin-bottom: 10px;
     border: none;

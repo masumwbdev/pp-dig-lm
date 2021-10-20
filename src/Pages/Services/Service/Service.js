@@ -20,7 +20,7 @@ const Service = ({service}) => {
                                     <h5 className="text-danger">$ {price}</h5>
                                 </div>
                                 <div>
-                                    <Link to={`/appoinment/${id}`}>
+                                    <Link to={`/service/${id}`}>
                                         <button className="btn btn-outline-danger">See more</button>
                                     </Link>
                                 </div>

@@ -38,16 +38,15 @@ const useFirebase = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [error, setError] = useState('');
 
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
         const googleProvider = new GoogleAuthProvider();
 
-        signInWithPopup(auth, googleProvider)
-            .then(result => {
-                // setUser(result.user);
-            })
+        return signInWithPopup(auth, googleProvider)
+            
     }
 
     const signInUsingGit = () => {

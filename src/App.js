@@ -13,6 +13,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Appoinment from './Pages/Appoinment/Appoinment/Appoinment';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import ServicesAppoinment from './Pages/Appoinment/ServicesAppoinment/ServicesAppoinment';
 
 function App() {
   return (
@@ -45,9 +46,12 @@ function App() {
           <Route path="/contact">
             <AllContact></AllContact>
           </Route>
-          <PrivateRoute path="/appoinment/:appoinmentId">
+          <Route path="/appoinment/:appoinmentId">
             <Appoinment></Appoinment>
-            </PrivateRoute>
+            </Route>
+          <Route path="/service/:serviceId">
+            <ServicesAppoinment></ServicesAppoinment>
+            </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>

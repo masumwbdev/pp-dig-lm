@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Mammogram",
+        "price": 453,
+        "viewes": 234,
+        "comments": 23,
+        "description": "Mammography is the process of using low-energy X-rays to examine the human breast for diagnosis and screening. The goal of mammography is the early detection of breast cancer, typically through detection of characteristic masses or microcalcifications.",
+        "imgURL": "https://media.istockphoto.com/photos/doctor-team-picture-id1311077753?b=1&k=20&m=1311077753&s=170667a&w=0&h=x0oxfg7IwPYZBuwTl0RcazfxStibPWAExHo1f5O2agU="
+    },
+    {
+        "id": 2,
+        "name": "Hemodialysis",
+        "price": 567,
+        "viewes": 346,
+        "comments": 34,
+        "description": "Hemodialysis, also spelled haemodialysis, or simply dialysis, is a process of purifying the blood of a person whose kidneys are not working normally.",
+        "imgURL": "https://media.istockphoto.com/photos/asian-chinese-senior-man-in-wheelchair-with-face-shield-face-mask-picture-id1324210578?b=1&k=20&m=1324210578&s=170667a&w=0&h=IY0-nr5mfKJmZb-fnGmgdiQi9HuSJn9uf6xkGJT7t_A="
+    },
+    {
+        "id": 3,
+        "name": "Spiral CT scanner",
+        "price": 975,
+        "viewes": 2134,
+        "comments": 75,
+        "description": "A spiral computed tomography (CT) scan takes images using radiation. ... Spiral CT uses a faster machine that spins continuously around the body. This allows it to more quickly detect images and spot problems. It can also detect small nodules (early-stage lung disease) that cannot be clearly seen on chest x-rays.",
+        "imgURL": "https://media.istockphoto.com/photos/of-joints-in-a-clinic-with-blue-color-and-red-scanning-laser-computer-picture-id1217160325?b=1&k=20&m=1217160325&s=170667a&w=0&h=TnqLifKPKOKqYzjR8YWBz3J0s-r2vIU9Vhpx8FutC5M="
+    },
+    {
+        "id": 4,
+        "name": "Digital X-ray",
+        "price": 1254,
+        "viewes": 2234,
+        "comments": 125,
+        "description": "Digital radiography is a form of radiography that uses x-ray–sensitive plates to directly capture data during the patient examination, immediately transferring it to a computer system without the use of an intermediate cassette.",
+        "imgURL": "https://media.istockphoto.com/photos/vigilantly-monitoring-his-patients-vitals-picture-id592647720?b=1&k=20&m=592647720&s=170667a&w=0&h=QrmU3JvrT95eD8TS1xEJY6e2OloGEfshU-5KqPgchcQ="
+    },
+    {
+        "id": 5,
+        "name": "Renal Biopsy",
+        "price": 235,
+        "viewes": 1234,
+        "comments": 74,
+        "description": "Renal biopsy is a medical procedure in which a small piece of kidney is removed from the body for examination, usually under a microscope. Microscopic examination of the tissue can provide information needed to diagnose, monitor or treat problems of the kidney.",
+        "imgURL": "https://images.unsplash.com/photo-1581595220892-b0739db3ba8c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJlbmFsJTIwYmlvcHN5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+        "id": 6,
+        "name": "Echo Cardiogram",
+        "price": 124,
+        "viewes": 5234,
+        "comments": 234,
+        "description": "An echocardiography, echocardiogram, cardiac echo or simply an echo, is an ultrasound of the heart. Echocardiography uses standard two-dimensional, three-dimensional, and Doppler ultrasound to create images of the heart.",
+        "imgURL": "https://media.istockphoto.com/photos/male-doctor-examining-a-patients-heart-by-using-an-ultrasound-picture-id1305632744?b=1&k=20&m=1305632744&s=170667a&w=0&h=sMWuHfWKXziUeYOJW_d0HqZiUCOAmRlhWE_Kca8bkZg="
+    }
+]

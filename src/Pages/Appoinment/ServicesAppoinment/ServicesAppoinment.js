@@ -1,13 +1,11 @@
 import React from 'react';
-import { useParams } from 'react-router'
-import homeServices from '../../../data/homeServices.json'
+import { useParams } from 'react-router';
+import service from '../../../data/services.json'
 
-
-const Appoinment = () => {
-    const { appoinmentId } = useParams();
-    console.log(appoinmentId)
-    const homeDetails = homeServices.find(item => item.id === parseInt(appoinmentId));
-    const { name, imgURL, price, description, comments } = homeDetails;
+const ServicesAppoinment = () => {
+    const { serviceId } = useParams();
+    const services = service.find(item => item.id === parseInt(serviceId));
+    const { name, imgURL, price, description, comments } = services;
     return (
         <div className="w-100">
             <div className="p-5">
@@ -27,4 +25,4 @@ const Appoinment = () => {
     );
 };
 
-export default Appoinment;
+export default ServicesAppoinment;

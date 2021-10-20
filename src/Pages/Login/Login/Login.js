@@ -32,22 +32,3 @@ const Login = () => {
 
 export default Login;
 
-
-// const { handleGit, signInUsingGoogle } = useAuth();
-    // const location = useLocation();
-    // const history = useHistory();
-    // const redirect_uri = location.state?.from || '/shop';
-
-    // const handleGoogleLogin = () => {
-    //     signInUsingGoogle()
-    //     .then(result => {
-    //         history.push(redirect_uri)
-    //     })
-    // }
-    // const handleGitSignIn = () => {
-    //     handleGit()
-    //     .then(result => {
-    //         history.push(redirect_uri)
-    //     })
-    // }
-

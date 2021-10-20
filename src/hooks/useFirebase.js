@@ -20,8 +20,6 @@ const useFirebase = () => {
         const googleProvider = new GoogleAuthProvider();
 
         return signInWithPopup(auth, googleProvider)
-        
-            
     }
 
     const handleReg = e => {
@@ -55,7 +53,6 @@ const useFirebase = () => {
             setError(error.message)
           })
       }
-
 
       const toggle = e => {
         setIsLogin(e.target.checked)
@@ -95,7 +92,6 @@ const useFirebase = () => {
     const signInUsingGit = () => {
         const gitProvider = new GithubAuthProvider();
         return signInWithPopup(auth, gitProvider)
-            
     }
 
     const signInUsingEmailPassword = e => {

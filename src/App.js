@@ -46,12 +46,12 @@ function App() {
           <Route path="/contact">
             <AllContact></AllContact>
           </Route>
-          <Route path="/appoinment/:appoinmentId">
+          <PrivateRoute path="/appoinment/:appoinmentId">
             <Appoinment></Appoinment>
-            </Route>
-          <Route path="/service/:serviceId">
+            </PrivateRoute>
+          <PrivateRoute path="/service/:serviceId">
             <ServicesAppoinment></ServicesAppoinment>
-            </Route>
+            </PrivateRoute>
           <Route path="*">
             <NotFound></NotFound>
           </Route>

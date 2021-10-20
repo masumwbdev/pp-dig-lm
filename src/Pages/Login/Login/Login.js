@@ -4,17 +4,17 @@ import useAuth from '../../../hooks/useAuth/useAuth';
 import './Login.css'
 
 const Login = () => {
-    const { signInUsingGoogle } = useAuth();
+    const { signInUsingGit, signInUsingEmailPassword, handleEmail, handlePass, signInUsingGoogle } = useAuth();
     return (
 
         <div className="login-form">
             <div className="login shadow-lg rounded">
                 <h3 className="mt-2 text-light mb-4">Login</h3>
                 <hr className="text-light mb-4" />
-                <form onSubmit="">
-                    <input className="email" type="email" placeholder="Your Email" />
+                <form onSubmit={signInUsingEmailPassword}>
+                    <input onBlur={handleEmail} className="email" type="email" placeholder="Your Email" required />
                     <br />
-                    <input className="password" type="password" placeholder="Your Password" />
+                    <input onBlur={handlePass} className="password" type="password" placeholder="Your Password" required />
                     <br />
                     <input className="mb-4 btn btn-warning btn-sm fs-6 submit-button w-100" type="submit" value="Continue" />
                 </form>
@@ -22,8 +22,8 @@ const Login = () => {
                 <div className="mb-3 mt-4 text-light">---------- Or login with ------------</div>
                 <div className="social-icon">
                     <i onClick={signInUsingGoogle} className="fab fa-google google"></i>
-                    <i className="fab fa-github github"></i>
-                    <i className="fab fa-facebook facebook"></i>
+                    <i onClick={signInUsingGit} className="fab fa-github github"></i>
+
                 </div>
             </div>
         </div>

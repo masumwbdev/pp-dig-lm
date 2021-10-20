@@ -12,6 +12,7 @@ import AllContact from './Pages/Contact/AllContact/AllContact';
 import Footer from './Pages/Shared/Footer/Footer';
 import Appoinment from './Pages/Appoinment/Appoinment/Appoinment';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -44,9 +45,9 @@ function App() {
           <Route path="/contact">
             <AllContact></AllContact>
           </Route>
-          <Route path="/appoinment/:appoinmentId">
+          <PrivateRoute path="/appoinment/:appoinmentId">
             <Appoinment></Appoinment>
-            </Route>
+            </PrivateRoute>
           <Route path="*">
             <NotFound></NotFound>
           </Route>

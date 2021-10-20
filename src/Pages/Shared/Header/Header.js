@@ -1,8 +1,12 @@
 import './Header.css'
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../../hooks/useAuth/useAuth';
 
 const Header = () => {
+    const { user, logOut } = useAuth();
+    console.log(user)
+
     return (
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -51,7 +55,11 @@ const Header = () => {
                             </li>
                         </ul>
                         <form class="d-flex">
-                            <NavLink to="/login"><button className="btn btn-outline-primary btn-sm fw-bold me-2">Login</button></NavLink>
+                            <span className="text-light me-3 mt-2">{user?.displayName}</span>
+                            <img className="photo-url" src={user?.photoURL} alt="" />
+                            {user?.displayName ?
+                                <button onClick={logOut} className="btn btn-outline-primary btn-sm fw-bold me-2">Logout</button> :
+                                <NavLink to="/login"><button className="btn btn-outline-primary btn-sm fw-bold me-2">Login</button></NavLink>}
                         </form>
                     </div>
                 </div>

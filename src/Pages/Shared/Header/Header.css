@@ -6,3 +6,10 @@
 .nav-bar{
     font-family: 'Black Ops One', cursive;
 }
+.photo-url{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+}

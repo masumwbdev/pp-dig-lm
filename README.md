@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Popular Diagnostic Ltd.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Visit Website](https://www.google.com "LCO")
+https://www.google.com
 
-## Available Scripts
+This is a healthcare-related diagnostic website. It has been a great experience creating this website. 
+Sometimes errors would come. When I corrected the bugs, I gained a lot of knowledge.
 
-In the project directory, you can run:
 
-### `npm start`
+**About This Website-**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- I have used 5 pages on this website. The pages are Home, Services, Our Doctors, About Us, Contact.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- On the home page, I used a slider. There are 6 service cards, plus a comfort section. There is a hover effect on the cards. By clicking on the see more button, the card details are displayed in another route.
 
-### `npm test`
+- There are different types of services on the Services page. When you click on the see more button, you are taken to another route where the card details are displayed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Detailed information about popular diagnostics Ltd can be found on the About Us page.
 
-### `npm run build`
+- There is a contact form on the contact us page. I have used 2 cards, one for head office and the other for a branch office, each with the office address.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- The navigation bar and footer will display all pages.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- I have used a route not found. When the user enters the wrong link, it will show "Not Found".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Login and register has been used on the website. Users are able to log in and register.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The service buttons have been routed privately. When users click on the button, if they are not logged in, they will be taken to the login page.

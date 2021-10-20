@@ -1,6 +1,6 @@
 # Popular Diagnostic Ltd.
 
-[Visit Website](https://www.google.com "LCO")
+[Visit Website:-](https://popular-diagnostic-ltd.netlify.app/ "LCO")
 https://www.google.com
 
 This is a healthcare-related diagnostic website. It has been a great experience creating this website. 

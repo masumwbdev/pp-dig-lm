@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "popular-diagnostic-ltd",
+    "firebase": "popular-diagnostic-ltd"
+  },
+  "targets": {}
+}

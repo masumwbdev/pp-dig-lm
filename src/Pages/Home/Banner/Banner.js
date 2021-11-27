@@ -1,46 +1,17 @@
 import React from 'react';
-import './Banner.css'
+import bannerImg from '../../../images/banner.jpg'
 
 const Banner = () => {
     return (
         <div>
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <div class="card">
+                <img src={bannerImg} class="card-img" alt="..." />
+                <div class="card-img-overlay mt-lg-5 text-dark">
+                    <h3 class="card-title">NEWS & PERSPECTIVE</h3>
+                    <h5 class="card-text">Your one-stop resource for medical news, clinical <br/> reference, and education.</h5>
+                    <button className="btn btn-primary my-3">Sign up for FREE</button>
+                    <p>Already a member? <a href="www.google.com" alt="">Login</a></p>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="https://images.unsplash.com/photo-1582719471863-f4c7006280cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=793&q=80" class="d-block w-100" alt="..." />
-                        <div class ="carousel-caption d-none d-md-block">
-                        <h5>Your health our first priority</h5>
-                        <p>Our Mission is to provide excellent health care services to all of our clients</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1582719299076-dd3f6f970dd4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" class="d-block w-100" alt="..." />
-                        <div class ="carousel-caption d-none d-md-block">
-                        <h5>Our new revoulation</h5>
-                        <p>You can be sure of high quality of scan</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1631816290961-733476b453f3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=878&q=80" class="d-block w-100" alt="..." />
-                        <div class ="carousel-caption d-none d-md-block">
-                        <h5>Stay With</h5>
-                        <p>Popular Diagnostic Ltd.</p>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
     );

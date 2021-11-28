@@ -3,6 +3,10 @@
 .nav-link{
     margin-right: 20px;
 }
+.navbar-bg{
+    background-color: #029cb1d5;
+    border: 0;
+}
 .nav-bar{
     font-family: 'Black Ops One', cursive;
 }

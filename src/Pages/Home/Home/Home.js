@@ -6,6 +6,7 @@ import Covid from '../Covid/Covid';
 import CovidTwo from '../CovidTwo/CovidTwo';
 import Diseases from '../Diseases/Diseases';
 import Hospital from '../Hospital/Hospital';
+import WhyChoose from '../WhyChoose/WhyChoose';
 import HomeServices from './HomeServices/HomeServices';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <CovidTwo></CovidTwo>
             <HomeServices></HomeServices>
             <Hospital></Hospital>
+            <WhyChoose></WhyChoose>
             <Comfort></Comfort>
         </div>
     );

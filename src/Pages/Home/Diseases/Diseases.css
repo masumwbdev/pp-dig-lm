@@ -1,0 +1,47 @@
+.horizontal{
+    width: 5%;
+    margin: 0 auto;
+    color: blue;
+}
+.condition-container{
+    background-color: #EBF0F8;
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+.disease-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.word-btn{
+    border: 1px solid lightgray;
+    background-color: #fff;
+    margin-right: 5px;
+    padding: 7px 13px;
+    margin-top: 5px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: rgb(1, 1, 136);
+}
+.word-btn:hover{
+    background-color: rgba(0, 0, 255, 0.048);
+}
+.disease-btn{
+    border: 0;
+    background-color: #003DA5;
+    padding: 16px 42px;
+    border-radius: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+.disease-btn:hover{
+    text-decoration: underline;
+}
+.ancor-link a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 19px;
+}
+.ancor-link a:hover{
+    text-decoration: underline;
+}

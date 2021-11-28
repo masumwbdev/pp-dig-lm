@@ -6,7 +6,7 @@ const HomeService = (props) => {
     const { id, name, description, imgURL } = props.homeservice;
     return (
         <div>
-            <div className="mt-5">
+            <div className="mt-5 container-fluid">
                 <div className="col">
                     <div className="card service-card">
                         <div className="d-lg-flex align-items-center">

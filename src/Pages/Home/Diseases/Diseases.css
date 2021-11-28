@@ -24,6 +24,8 @@
 }
 .word-btn:hover{
     background-color: rgba(0, 0, 255, 0.048);
+    text-decoration: none;
+    color: black;
 }
 .disease-btn{
     border: 0;
